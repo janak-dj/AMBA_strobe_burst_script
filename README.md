@@ -1,4 +1,4 @@
-#  Protocol Utilities – Burst & WSTRB Calculation
+#  AMBA Protocol Utilities – Burst & WSTRB Calculation
 
 This repository provides two Python scripts designed to automate critical AXI & AHB protocol-related calculations often used in FPGA/ASIC verification environments. Both tools are tailored for **aligned address scenarios** and help improve efficiency, accuracy, and reusability in testbench development.
 
@@ -50,7 +50,8 @@ Both tools assume **aligned address inputs**. They are ideal for testbench devel
 
 ##  How to Use
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/AXI & AHB-burst-wstrb-tools.git
-   cd AXI & AHB-burst
+   -> Strobe_cal.exe
+   -> burst_calc.exe
+   git clone https://github.com/janak-dj/AMBA_strobe_burst_script.git
+   cd AMBA_Strobe_burst_script.git
 
