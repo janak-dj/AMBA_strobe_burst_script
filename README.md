@@ -1,13 +1,13 @@
-#  AXI Protocol Utilities – Burst & WSTRB Calculation
+#  Protocol Utilities – Burst & WSTRB Calculation
 
-This repository provides two Python scripts designed to automate critical AXI protocol-related calculations often used in FPGA/ASIC verification environments. Both tools are tailored for **aligned address scenarios** and help improve efficiency, accuracy, and reusability in testbench development.
+This repository provides two Python scripts designed to automate critical AXI & AHB protocol-related calculations often used in FPGA/ASIC verification environments. Both tools are tailored for **aligned address scenarios** and help improve efficiency, accuracy, and reusability in testbench development.
 
 ---
 
-##  Tool 1: AXI Burst Calculator
+##  Tool 1: AXI & AHB Burst Calculator
 
 ###  Description
-This script calculates the **AXI burst boundaries and next address** based on user input. It is especially useful during testbench development to validate address alignment and burst behavior.
+This script calculates the **AXI & AHB burst boundaries and next address** based on user input. It is especially useful during testbench development to validate address alignment and burst behavior.
 
 ###  Inputs:
 - `start_address`: Starting address of the burst
@@ -23,10 +23,10 @@ The script generates a `.txt` file containing:
 
 ---
 
-##  Tool 2: AXI WSTRB (Strobe) Calculator
+##  Tool 2: AXI & AHB WSTRB (Strobe) Calculator
 
 ###  Description
-This script computes the **WSTRB (write strobe)** signal for AXI/AXI-Lite write transactions. It's useful for checking correct byte lane activation during aligned transfers.
+This script computes the **WSTRB (write strobe)** signal for AXI & AHB/AXI & AHB-Lite write transactions. It's useful for checking correct byte lane activation during aligned transfers.
 
 ###  Inputs:
 - `no_byte_lane`: Number of byte lanes in the bus
@@ -51,6 +51,6 @@ Both tools assume **aligned address inputs**. They are ideal for testbench devel
 ##  How to Use
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/axi-burst-wstrb-tools.git
-   cd axi-burst
+   git clone https://github.com/your-username/AXI & AHB-burst-wstrb-tools.git
+   cd AXI & AHB-burst
 
