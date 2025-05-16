@@ -50,8 +50,8 @@ Both tools assume **aligned address inputs**. They are ideal for testbench devel
 
 ##  How to Use
 1. Clone this repository:
-   > Strobe_cal.exe
-   > burst_calc.exe
+   - Strobe_cal.exe
+   - burst_calc.exe
    - git clone https://github.com/janak-dj/AMBA_strobe_burst_script.git
    - cd AMBA_Strobe_burst_script.git
 
