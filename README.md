@@ -1,13 +1,14 @@
-#  AMBA Protocol Utilities – Burst & WSTRB Calculation
 
-This repository provides two Python scripts designed to automate critical AXI & AHB protocol-related calculations often used in FPGA/ASIC verification environments. Both tools are tailored for **aligned address scenarios** and help improve efficiency, accuracy, and reusability in testbench development.
+#  Phython Script - Burst Calculation & Strobe Calculation
+
+This repository provides two Python scripts designed to automate critical AXI & AHB protocol-related calculations often used in FPGA/ASIC verification environments. Both script improve efficiency, accuracy, and reusability in testbench development.
 
 ---
 
-##  Tool 1: AXI & AHB Burst Calculator
+##  Script 1: Burst Calculator
 
 ###  Description
-This script calculates the **AXI & AHB burst boundaries and next address** based on user input. It is especially useful during testbench development to validate address alignment and burst behavior.
+This script calculates the **Burst boundaries and next address** based on user input. It is especially useful during testbench development to validate address alignment and burst behavior.
 
 ###  Inputs:
 - `start_address`: Starting address of the burst
@@ -23,10 +24,10 @@ The script generates a `.txt` file containing:
 
 ---
 
-##  Tool 2: AXI & AHB WSTRB (Strobe) Calculator
+##  Script 2: Strobe Calculator
 
 ###  Description
-This script computes the **WSTRB (write strobe)** signal for AXI & AHB/AXI & AHB-Lite write transactions. It's useful for checking correct byte lane activation during aligned transfers.
+This script computes the **Strobe** signal for AXI & AHB write transactions. It's useful for checking correct byte lane activation during transfers.
 
 ###  Inputs:
 - `no_byte_lane`: Number of byte lanes in the bus
@@ -43,15 +44,9 @@ The script generates a `.txt` file containing:
 
 ---
 
-##  Note:
-Both tools assume **aligned address inputs**. They are ideal for testbench development, protocol checking, or educational purposes in the VLSI design and verification space.
-
----
-
-##  How to Use
-1. Clone this repository:
+#  How to Use
+-> Clone this repository:
    - Strobe_cal.exe
    - burst_calc.exe
    - git clone https://github.com/janak-dj/AMBA_strobe_burst_script.git
    - cd AMBA_Strobe_burst_script.git
-
