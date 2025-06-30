@@ -50,3 +50,5 @@ The script generates a `.txt` file containing:
    - burst_calc.exe
    - git clone https://github.com/janak-dj/AMBA_strobe_burst_script.git
    - cd AMBA_Strobe_burst_script.git
+   - [Python_Scriopt_Auto_Burst_Strobe_Calc.pdf](https://github.com/user-attachments/files/20973756/Python_Scriopt_Auto_Burst_Strobe_Calc.pdf)
+
